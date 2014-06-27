@@ -1,12 +1,6 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
 # Libraries
-*.lib
-*.a
+*.lvlibp
+*.llb
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -16,8 +10,11 @@
 
 # Executables
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+
+# Metadata
+*.aliases
+*.lvlps
+
+
+/builds/**/*
+/Builds/**/*
