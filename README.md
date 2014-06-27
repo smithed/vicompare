@@ -16,10 +16,11 @@ If you need to add additional processing steps, all actions performed are called
 
 
 Configuring for sourcetree is as follows:
-Difftool--Custom
-Path: C:\viscc\vidiff.exe
-Args: \"$LOCAL\" \"$REMOTE\"
 
-Mergetool--Custom
-Path: C:\viscc\vimerge.exe
-Args: \"$BASE\" \"$REMOTE\" \"$LOCAL\" \"$MERGED\"
+- Difftool: Custom
+- Path: C:\viscc\vidiff.exe
+- Args: \"$LOCAL\" \"$REMOTE\"
+
+- Mergetool: Custom
+- Path: C:\viscc\vimerge.exe
+- Args: \"$BASE\" \"$REMOTE\" \"$LOCAL\" \"$MERGED\"
