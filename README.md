@@ -13,3 +13,13 @@ Instructions are to:
 
 
 If you need to add additional processing steps, all actions performed are called by <project>/diffmergetool/action/performaction. First it determines what to do--diff or merge. This string is automatically inserted as an argument by the main exe (diff or merge executables). It then calls the "fix paths" function, which is responsible for performing all operations on the arguments, which are assumed to be paths at this point. Then, diff or merge is called. Diff and merge are black boxes (private methods), but all the necessary items are exposed as parameters.
+
+
+Configuring for sourcetree is as follows:
+Difftool--Custom
+Path: C:\viscc\vidiff.exe
+Args: \"$LOCAL\" \"$REMOTE\"
+
+Mergetool--Custom
+Path: C:\viscc\vimerge.exe
+Args: \"$BASE\" \"$REMOTE\" \"$LOCAL\" \"$MERGED\"

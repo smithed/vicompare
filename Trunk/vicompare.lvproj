@@ -140,7 +140,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6A1A3BC4-E768-46CA-9BC1-B40E13B618D8}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">vidiff.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/executables/vidiff.exe</Property>
@@ -190,7 +190,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D192B5B7-9516-4C6D-A7AB-DEF74155B7A9}</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_version.build" Type="Int">32</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">vimerge.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/executables/vimerge.exe</Property>
@@ -227,21 +227,18 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{BEF7666B-82D6-4ACB-9E05-5CDB20F57837}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">3_actions</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/actions</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9F8CF89D-0309-451C-984B-2F9584944109}</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">35</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/actions</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/actions/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{664C3503-407F-410E-8316-CD80D7B2F022}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FEBDC48A-D241-4856-9746-F194020F5155}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/diffmergetool/action/performaction.vi</Property>
@@ -264,12 +261,7 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/exe</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/constants</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Exclude</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 			<Item Name="4_installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">viscc</Property>
@@ -296,7 +288,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">4_installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{B240C314-BA66-4A38-9EB4-7F94B297EE40}</Property>
 				<Property Name="INST_productName" Type="Str">vi scc tools</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.35</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.38</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">13018021</Property>
 				<Property Name="MSI_arpCompany" Type="Str">DS</Property>
