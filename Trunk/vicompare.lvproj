@@ -190,7 +190,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D192B5B7-9516-4C6D-A7AB-DEF74155B7A9}</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">vimerge.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/executables/vimerge.exe</Property>
