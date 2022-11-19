@@ -7,7 +7,7 @@ This is a tool used to perform diff and merge on LabVIEW VIs using git. Git is a
 
 Instructions are to:
 
-1. open vicompare.lvproj
+1. open vicompare.lvproj  (Code can be opened in LabVIEW 2013 or later)
 2. Build the executables, diffmain and mergemain
 3. Build the source distribution, actions
 4. Build the installer
